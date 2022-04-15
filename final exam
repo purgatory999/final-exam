@@ -2,6 +2,10 @@
 html_dat <- read_html(
     system.file("docs/textreadr.html", package = "textreadr")
 )
+read_html("https://investorplace.com/2017/04/10-best-stocks-to-buy-for-2017-still-the-best/")
+html_nodes(",newll brands")
+html_test()
+
 
 # }
 # NOT RUN {
